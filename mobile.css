@@ -1,0 +1,157 @@
+@media (max-width: 600px) {
+
+/* Multiple Sections Styling */
+
+    .collection-section-header,
+    .how-section-header,
+    .service-section-header{
+        width: 70%;
+    }
+
+    .collection-grid,
+    .service-grid{
+        grid-template-columns: auto;
+    }
+
+    .form, 
+    .how-container, 
+    .download-section-container, 
+    .download-button-container, 
+    .footer-container{
+        flex-direction: column;
+    }
+
+/* Home Section */
+
+    .header-content-3{
+        display: none;
+    }
+
+    .home-container p{
+        font-size: 20px;
+    }
+
+    .form-container{
+        align-items: center;
+    }
+
+    .form{
+        width: 70%;
+    }
+
+/* Rent by Section */
+
+    .brand-content, 
+    .body-type-content{
+        width: 30%;
+    }
+
+    .brand-content svg, 
+    .body-type-content svg{
+        width: 60%;
+    }
+
+    .brand-content p, 
+    .body-type-content p{
+        font-size: 13px;
+    }
+
+/* Collection Section Styling */
+
+    .collection-section-header p{
+        text-align: justify;
+    }
+
+    .collection-section-header ul li{
+        display: block;
+        margin: 15px 0px;
+    }   
+
+/* How Section Styling */
+
+    .how-container .car-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .car-img img{
+        width: 70%;
+        height: auto;
+    }
+
+    .how-section-header p{
+        text-align: justify;
+    }
+
+    .how-content-empty{
+        display: none;
+    }
+
+    .how-content-steps{
+        position: relative;
+        width: 100%;
+    }
+
+    .step-container{
+        padding: 15px 5px;
+    }
+
+    .step-content p{
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+
+    .step-icon-container{
+        margin: 20px;
+    }
+
+ /* Service Section Styling */
+
+    .service-content h4{
+        margin-bottom: 10px;
+    }
+
+    .service-icon{
+        margin-top: 30px;
+    }
+
+/* Comment Section Styling */
+
+    .comment-section-buttons button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment-section-header h1{
+        font-size: 20px;
+    }
+
+/* Download Section Styling */
+
+    .download-section-container .download-content{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .download-button{
+        margin: 10px 0px;
+    }
+
+/* Footer Section Styling */
+
+    .footer-logo, 
+    .footer-nav, 
+    .footer-socials{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+}

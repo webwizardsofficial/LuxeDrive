@@ -1,0 +1,602 @@
+/* General Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Home Section Styling */
+
+#home-section{
+    margin-bottom: 20px;
+}
+
+.home-container{
+    height: 100vh;
+    background-image: url("./Project-Files/Home-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.home-container p{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 50px;
+    font-weight: 548;
+}
+
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+}
+.header-content-1{
+    width: 20%;
+}
+
+.header-content-2{
+    width: 60%;
+}
+
+.header-content-3{
+    width: 20%;
+}
+
+.header-content-3 button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border: .5px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    margin-top: -50px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.input p{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+
+.input input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input button{
+    padding: 17px 0;
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.input .input-container{
+    position: relative;
+}
+
+.input .input-container input{
+    padding-left: 25px;
+}
+
+.input .input-container i{
+    margin-left: -95%;
+    position: absolute;
+    top: 30%;
+}
+
+/* Multiple Sections Styling */
+
+#brand-section,
+#body-type-section,
+#collection-section, 
+#how-section,
+#service-section,
+#comment-section,
+#download-section,
+.collection-section-header-container,
+.how-section-header-container,
+.service-section-header-container,
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.brand-section-container, 
+.body-type-section-container, 
+.collection-section-container,
+.how-section-container,
+.service-section-container,
+.comment-section-container,
+.download-section-container,
+.footer-container{
+    width: 90vw;
+}
+
+.brand-section-header, 
+.body-type-section-header,
+.comment-section-header{
+    display: flex;
+}
+
+.brand-section-button, 
+.body-type-section-button,
+.comment-section-buttons{
+    width: 88%;
+    display: flex;
+    justify-content: end;
+}
+
+.collection-section-header,
+.how-section-header,
+.service-section-header{
+    width: 55%;
+    text-align: center;
+}
+
+.collection-section-header p,
+.how-section-header p,
+.service-section-header p{
+    padding: 15px 0px;
+}
+
+.collection-section-header h1,
+.how-section-header h1{
+    font-family: sans-serif;
+}
+
+/* Rent by Brand & Body-type Section Styling */
+
+.brand-section-button a, 
+.body-type-section-button a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.body-type-section-button{
+    width: 86%;
+}
+
+.brand-container, 
+.body-type-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand-content, 
+.body-type-content{
+    width: 15%;
+    height: 100px;
+    background-color: #E5E4E2;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand, 
+.body-type{
+    text-align: center;
+}
+
+/* Collection Section Styling */
+
+#collection-section{
+    background-color: #E5E4E2;
+    padding-bottom: 40px;
+    margin-bottom: unset;
+}
+
+.collection-section-header ul li{
+    display: inline;
+    padding: 7px 5px;
+    justify-content: center;
+}
+
+.collection-section-header ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+
+.collection-section-header ul li:first-of-type a{
+    background-color: #000;
+    color: #fff;
+}
+
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.collection-item{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.collection-item .img-container, 
+.specs-container, 
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.collection-item img, .img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.details-container{
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.details-container h1{
+    padding: 5px 0px;
+}
+
+.details-container h1 sub{
+    font-weight: 100;
+    color: gray;
+}
+
+.specs-container, .button{
+    margin: 10px 0px;
+    padding-left: unset;
+}
+
+.specs-content{
+    width: 95%;
+    height: 70px;
+    background-color: #E5E4E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.specs{
+    text-align: center;
+}
+
+.button{
+    width: 95%;
+}
+
+.button button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+    color: #000;
+    border: .5px solid #000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.collection-item-2{
+    border: 1px solid #000;
+}
+
+.collection-item-2 button{
+    background-color: #000;
+    color: #fff;
+}
+
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
+
+.see-all-button button{
+    padding: 15px 30px;
+    margin: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* How Section Styling */
+
+.how-container{
+    display: flex;
+    position: relative;
+}
+
+.how-container .how-content-empty{
+    width: 30%;
+}
+
+.how-content-steps{
+    width: 45%;
+    position: absolute;
+    align-items: center;
+}
+
+.step-container{
+    display: flex;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 30px 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-content h3{
+    padding-bottom: 15px;
+    font-family: sans-serif;
+}
+
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-icon{
+    background-color: #F5F5F5;
+    padding: 35px 12px;
+    border-radius: 10px;
+}
+
+.how-container .car-img{
+    width: 70%;
+    background-color:#F5F5F5;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 15px;
+}
+
+/* Service Section Styling */
+
+#service-section{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0px;
+    margin-bottom: unset;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.service-item .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon-container .service-icon{
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.service-item .service-content{
+    text-align: center;
+}
+
+.service-item .service-content h4{
+    padding: 10px 0px;
+}
+
+.service-item .service-content p{
+    padding: 10px;
+}
+
+/* Comment Section Styling */
+
+.comment-section-buttons{
+    width: 75% !important;
+}
+
+.comment-section-buttons button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.comment-section-buttons .comment-section-button-1{
+    background-color: #fff;
+    color: #a4a4a4;
+    border: 2px solid #C0C0C0;
+}
+
+.comment-section-buttons .comment-section-button-2{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.comment-content{
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.comment-content p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-owner-container{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.comment-owner-container-name{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.comment-owner-container-name h4{
+    padding: 10px 0px;
+}
+
+/* Download Section Styling */
+
+#download-section{
+    background-color: #000;
+    color: #fff;
+    margin: unset;
+    padding: 30px 0px;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.download-section-container{
+    display: flex;
+}
+
+.download-section-container .download-content{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.download-section-container .download-description h2{
+    padding: 10px 0px;
+}
+
+.download-section-container .download-description p{
+    font-size: 15px;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+
+.download-section-container .download-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-button{
+    background-color: #fff;
+    display: flex;
+    border-radius: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.download-button-icon{
+    padding: 10px 5px 10px 20px;
+}
+
+.download-button-text{
+    color: #000;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.download-button-text p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.download-button-text a{
+    color: #000;
+}
+
+.download-button-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer Styling */
+
+footer{
+    margin: unset;
+    background-color: #000;
+    padding: 40px 0px;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-logo{
+    display: flex;
+    width: 20%;
+    justify-content: start;
+}
+
+.footer-nav{
+    width: 60%;
+    text-align: center;
+}
+
+.footer-nav ul li, 
+.footer-socials ul li{
+    display: inline;
+}
+
+.footer-nav ul li a, 
+.footer-socials ul li a{
+    text-decoration: none;
+    color: #D9DBE1;
+    padding: 0px 10px;
+}
+
+.footer-socials ul li a{
+    padding: 6px 7px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50%;
+}
